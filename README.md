@@ -7,5 +7,7 @@ some methods to exit elegantly from a program in python
 * to use a database item to represent a flag
 
 # pratical method
-* use asyncio loop
-* catch SystemExit exception thrown from sys.exit()
+* to use asyncio loop
+* to catch SystemExit/KeyboardInterrupt exception thrown from sys.exit()/SIGINT
+* to maintain a global flag in redis
+* to create a file to indicate that system should exit instantly
